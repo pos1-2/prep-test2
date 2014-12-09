@@ -174,4 +174,4 @@ Da Sie nicht wissen, wo sich ```Waldo``` befindet, sollten Sie in der Mitte anfa
 
 ```
 
-[Hier finden Sie eine komplette Lösung](https://github.com/pos1-2ahif/prep-test2/solution/tree/src/pos1_2ahif/prep_test2/Main.java)
+[Hier finden Sie eine komplette Lösung](https://github.com/pos1-2ahif/prep-test2/blob/solution/src/pos1_2ahif/prep_test2/Main.java)
