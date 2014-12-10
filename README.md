@@ -18,7 +18,7 @@ Hint: This works for [IntelliJ IDEA](https://www.jetbrains.com/idea/) as well (u
 Noch Fragen?
 ------------
 
-Wenn Sie noch Fragen zu dem Beispiel Code haben, können Sie ein [Issue](https://github.com/pos1-2ahif/prep-test2/issues) anlegen (bitte überprüfen Sie vorher, ob bereits jemand anderer ein entsprechendes Issue angelegt hat).
+Wenn Sie noch Fragen zu dem Beispiel Code haben, können Sie ein [Issue](https://github.com/pos1-2ahif/prep-test2/issues?q=is%3Aissue) anlegen (bitte überprüfen Sie vorher, ob bereits jemand anderer ein entsprechendes Issue angelegt hat - _durchsuchen Sie bitte auch die bereits geschlossenen Issues!_).
 
 Es gibt __KEINE GARANTIE__, dass auf Issues reagiert wird; wir bemühen uns aber, so viele wie möglich zu beantworten.
 
