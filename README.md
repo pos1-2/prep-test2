@@ -15,6 +15,13 @@ Build the project yourself
 
 Hint: This works for [IntelliJ IDEA](https://www.jetbrains.com/idea/) as well (use: `File` - `Open...`), in case you prefer it over eclipse.
 
+Noch Fragen?
+------------
+
+Wenn Sie noch Fragen zu dem Beispiel Code haben, können Sie ein [Issue](https://github.com/pos1-2ahif/prep-test2/issues) anlegen (bitte überprüfen Sie vorher, ob bereits jemand anderer ein entsprechendes Issue angelegt hat).
+
+Es gibt __KEINE GARANTIE__, dass auf Issues reagiert wird; wir bemühen uns aber, so viele wie möglich zu beantworten.
+
 Aufgabe
 -------
 
@@ -90,7 +97,7 @@ Implementieren Sie das Interface `WhereIsWaldo.Exercises`.
 Die Methode `findWaldo` bekommt eine `WhereIsWaldo` Instanz und soll den Key zurückliefern, an dem sich `Waldo` versteckt.
 
 Eine passende ```main``` Methode ist bereits programmiert.
-Verändern Sie die ```WhereIsWaldo``` Klasse +NICHT+!
+Verändern Sie die ```WhereIsWaldo``` Klasse __NICHT__!
 
 Sie können davon ausgehen, dass es immer genau einen `Waldo` gibt und dass alle Hinweise korrekt sind und dass die Hinweise halbwegs regelmäßig über die ```Map``` verteilt sind.
 
