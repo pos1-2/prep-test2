@@ -15,6 +15,13 @@ Build the project yourself
 
 Hint: This works for [IntelliJ IDEA](https://www.jetbrains.com/idea/) as well (use: `File` - `Open...`), in case you prefer it over eclipse.
 
+Noch Fragen?
+------------
+
+Wenn Sie noch Fragen zu dem Beispiel Code haben, können Sie ein [Issue](https://github.com/pos1-2ahif/prep-test2/issues?q=is%3Aissue) anlegen (bitte überprüfen Sie vorher, ob bereits jemand anderer ein entsprechendes Issue angelegt hat - _durchsuchen Sie bitte auch die bereits geschlossenen Issues!_).
+
+Es gibt __KEINE GARANTIE__, dass auf Issues reagiert wird; wir bemühen uns aber, so viele wie möglich zu beantworten.
+
 Aufgabe
 -------
 
@@ -46,7 +53,7 @@ Dabei kann es sich handeln um:
 
 ##### `Waldo` selbst
 
-Wenn das Objekt vom Type `WhereIsWaldo.Waldo` ist, haben Sie Ihn gefunden.
+Wenn das Objekt vom Typ `WhereIsWaldo.Waldo` ist, haben Sie Ihn gefunden.
 
 ```
 public interface Waldo {
@@ -90,7 +97,7 @@ Implementieren Sie das Interface `WhereIsWaldo.Exercises`.
 Die Methode `findWaldo` bekommt eine `WhereIsWaldo` Instanz und soll den Key zurückliefern, an dem sich `Waldo` versteckt.
 
 Eine passende ```main``` Methode ist bereits programmiert.
-Verändern Sie die ```WhereIsWaldo``` Klasse +NICHT+!
+Verändern Sie die ```WhereIsWaldo``` Klasse __NICHT__!
 
 Sie können davon ausgehen, dass es immer genau einen `Waldo` gibt und dass alle Hinweise korrekt sind und dass die Hinweise halbwegs regelmäßig über die ```Map``` verteilt sind.
 
@@ -107,7 +114,7 @@ Viel Erfolg!
 
 ### Tipps & Hilfestellungen
 
-Scrollen Sie das Fenster herunter um nicht zu viele Hinweise auf einmal zu sehen.
+Scrollen Sie das Fenster _behutsam_ herunter um nicht zu viele Hinweise auf einmal zu sehen.
 
 ```
 
@@ -127,7 +134,7 @@ Besorgen Sie sich eine Liste aller Keys in der ```Map```, um herauszufinden, an 
 
 ```
 
-Um die Hinweise verarbeiten zu können, brauchen Sie die Keys in einer geordneten Form. In einem ```Set``` ist die Ordnung nicht relevant. Sie sollten die Keys daher in einer ```List``` verwalten, denn ist die Ordnung der Elemente relevant. Suchen Sie nach einem geeigneten ```ArrayList``` Constructor.
+Um die Hinweise verarbeiten zu können, brauchen Sie die Keys in einer geordneten Form. In einem ```Set``` ist die Ordnung nicht relevant. Sie sollten die Keys daher in einer ```List``` verwalten. In einer ```List``` ist die Ordnung der Elemente relevant. Suchen Sie nach einem geeigneten ```ArrayList``` Constructor.
 
 ```
 

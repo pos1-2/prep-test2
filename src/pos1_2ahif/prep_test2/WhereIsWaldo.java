@@ -33,12 +33,15 @@ public final class WhereIsWaldo implements Map<Integer, WhereIsWaldo.HidingPlace
     private Map<Integer, HidingPlace> map;
 
     public WhereIsWaldo(int difficulty) {
-        final HidingPlace left = new HidingPlaceWithDelay(new HintLeft() {
-        });
-        final HidingPlace right = new HidingPlaceWithDelay(new HintRight() {
-        });
-        final HidingPlace nothing = new HidingPlaceWithDelay(new Object() {
-        });
+        // do not "optimize" the hiding place by reusing refs
+        // because then the search delay can be tricked by
+        // sneaky pupils
+        final HintLeft left = new HintLeft() {
+        };
+        final HintRight right = new HintRight() {
+        };
+        final Object nothing = new Object() {
+        };
 
         map = new HashMap<Integer, HidingPlace>(difficulty);
 
@@ -57,9 +60,12 @@ public final class WhereIsWaldo implements Map<Integer, WhereIsWaldo.HidingPlace
             }
 
             if (random.nextDouble() < 0.9) {
-                map.put(position, nothing);
+                map.put(position, new HidingPlaceWithDelay(nothing));
             } else {
-                map.put(position, (position > waldo) ? left : right);
+                map.put(position,
+                        (position > waldo)
+                                ? new HidingPlaceWithDelay(left)
+                                : new HidingPlaceWithDelay(right));
             }
         }
 
