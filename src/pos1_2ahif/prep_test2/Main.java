@@ -107,7 +107,7 @@ public class Main {
 
 
         // CHANGE THIS LINE
-        WhereIsWaldo.Exercises solution = new Solution(); // TODO provide your implementation here
+        WhereIsWaldo.Exercises solution = new Solution();
         // CHANGE THIS LINE
 
         int found = solution.findWaldo(whereIsWaldo);
