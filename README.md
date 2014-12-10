@@ -53,7 +53,7 @@ Dabei kann es sich handeln um:
 
 ##### `Waldo` selbst
 
-Wenn das Objekt vom Type `WhereIsWaldo.Waldo` ist, haben Sie Ihn gefunden.
+Wenn das Objekt vom Typ `WhereIsWaldo.Waldo` ist, haben Sie Ihn gefunden.
 
 ```
 public interface Waldo {
@@ -114,7 +114,7 @@ Viel Erfolg!
 
 ### Tipps & Hilfestellungen
 
-Scrollen Sie das Fenster herunter um nicht zu viele Hinweise auf einmal zu sehen.
+Scrollen Sie das Fenster _behutsam_ herunter um nicht zu viele Hinweise auf einmal zu sehen.
 
 ```
 
@@ -134,7 +134,7 @@ Besorgen Sie sich eine Liste aller Keys in der ```Map```, um herauszufinden, an 
 
 ```
 
-Um die Hinweise verarbeiten zu können, brauchen Sie die Keys in einer geordneten Form. In einem ```Set``` ist die Ordnung nicht relevant. Sie sollten die Keys daher in einer ```List``` verwalten, denn ist die Ordnung der Elemente relevant. Suchen Sie nach einem geeigneten ```ArrayList``` Constructor.
+Um die Hinweise verarbeiten zu können, brauchen Sie die Keys in einer geordneten Form. In einem ```Set``` ist die Ordnung nicht relevant. Sie sollten die Keys daher in einer ```List``` verwalten. In einer ```List``` ist die Ordnung der Elemente relevant. Suchen Sie nach einem geeigneten ```ArrayList``` Constructor.
 
 ```
 
