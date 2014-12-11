@@ -90,7 +90,7 @@ public class Main {
                     }
                 }
 
-                // we did not found him
+                // we did not find him
                 // continue searching
                 // next iteration we will
                 // search the next outer entries
