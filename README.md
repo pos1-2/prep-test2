@@ -1,4 +1,4 @@
-Where is Waldo? (preparing for test 2)
+Where is Waldo? (preparing for plue 2)
 ======================================
 
 To take a look at the code, just browse the [src](src/pos1_2ahif/prep_test2) directory.
